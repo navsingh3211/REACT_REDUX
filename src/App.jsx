@@ -1,12 +1,13 @@
-import React from 'react';
+// import React from 'react';
 import Navbar from './components/Navbar';
+import UserDetails from './components/UserDetails';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar/>
-      <p>APp is</p>
-    </div>
+      <UserDetails/>
+    </>
   )
 }
 
